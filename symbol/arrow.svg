@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <bx:grid x="0" y="0" width="50" height="50"/>
+  </defs>
+  <rect width="500" height="500" style="fill: rgb(25, 25, 25);"/>
+  <line style="fill: none; stroke: rgb(242, 242, 242); stroke-width: 50px;" x1="250" y1="420.888" x2="250" y2="120.888"/>
+  <polyline style="fill: none; stroke: rgb(242, 242, 242); stroke-width: 50px;" points="100 270.888 250 120.888 400 270.888"/>
+</svg>
