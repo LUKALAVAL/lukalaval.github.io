@@ -1,5 +1,6 @@
 :root {
     --dark: rgb(19,19,19);
+    --grey: rgb(104, 104, 104);
     --light: rgb(242, 242, 242); 
 }
 
@@ -49,16 +50,24 @@ header a {
     text-decoration: underline;
 }
 
-header a:hover,
+body a.EN,
+body a.FR,
+body a.DE {
+    text-decoration: line-through;
+    color: var(--grey);
+}
+
 body.EN a.EN,
 body.FR a.FR,
 body.DE a.DE {
+    color: var(--dark);
     font-weight: bold;
+    text-decoration: none;
 }
 
 #toHomepage, 
 #scrollTop {
-    background-image: url(./symbol/arrow.svg);
+    background-image: url(./resources/symbol/arrow.svg);
     cursor: pointer;
     position: fixed;
     width: 60px;
@@ -136,15 +145,15 @@ header {
 }
 
 #liveUndergroundVienna {
-    background-image: url(./img/liveUndergroundVienna.svg);
+    background-image: url(./resources/image/liveUndergroundVienna.svg);
 }
 
 #unfinishedVoyages {
-    background-image: url(./img/unfinishedVoyages.svg);
+    background-image: url(./resources/image/unfinishedVoyages.svg);
 }
 
 #synthesizer {
-    background-image: url(./img/synthesizer.svg);
+    background-image: url(./resources/image/synthesizer.svg);
 }
 
 
