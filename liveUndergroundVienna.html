@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>live underground vienna</title>
+    <title>LUKA LAVAL</title>
 
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,12 +21,13 @@
         
         <header>
             <div class="left">
-                <b>LUKA LAVAL</b>
+                <b><a href="./index.html">LUKA LAVAL</a></b>
             </div>
             <div class="right">
-                <a class="EN" href="EN.html">EN</a>
-                <a class="FR" href="">FR</a>
-                <a class="DE" href="">DE</a>
+                <a class="EN" href="index.html">EN</a>
+                <!-- <a class="FR" href="">FR</a>
+                <a class="DE" href="">DE</a> -->
+                <s title="coming soon...">FR DE</s>
             </div>
         </header>
     
@@ -34,15 +35,37 @@
             <h1>
                 <b>live underground vienna</b>
             </h1>
-            <h4>Visualizing the viennese U-Bahn network</h4>
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem accusantium unde corporis at sit nulla culpa. Nemo aut praesentium veritatis modi vel sunt soluta natus necessitatibus ipsam? Odit, distinctio veritatis.</h3>
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem accusantium unde corporis at sit nulla culpa. Nemo aut praesentium veritatis modi vel sunt soluta natus necessitatibus ipsam? Odit, distinctio veritatis.</h3>
-
-            <h3 class="link">
-                ↳ <a href="https://lukqca.github.io" target="_blank">demo (coming soon)</a> &emsp; ↳ <a href="https://github.com/lukqca/lukqca.github.io" target="_blank">github</a>
-            </h3>
-
+            <h4 class="subtitle">Visualizing the viennese U-Bahn network</h4>
             <h4>
+                This project gives a live overview of the viennese metro network. It is developped using HTML, CSS and JS only. We explore the basics of SVG to animate all individual trains. The animation is trigered using an API connection to the city server (one request every 30sec). Using a simple algorithm we interpolate the time of departure of each train based on the API response.
+            </h4>
+            <img src="./resources/image/live_underground_vienna/0.png" alt="" style="float: right">
+            <h4>
+                The <a href="https://www.data.gv.at/en/">OGD (Open Government Data)</a> policy of Austria makes a variety of datasets
+                available. We focused on Vienna public transportation. <a href="https://www.wienerlinien.at/web/wl-en">Wiener Linien</a> publishes live updates
+                of their network using an <a href="https://data.europa.eu/data/datasets/522d3045-0b37-48d0-b868-57c99726b1c4?locale=en">open access API</a>. We created a live metro map of Vienna as an interface of this API to apprehend public transportation schedules. We used adapted design
+                strategies and animations to effectively communicate the raw information we get from the
+                API.
+            </h4>
+            <img src="./resources/image/live_underground_vienna/1.png" alt="" style="float: right">
+            <h4>
+                This project is meant to facilitate the understanding of the public transportation network in
+                Vienna. We want to communicate information on a larger scale of understanding with a
+                global overview of the city's metro system. This map can also serve other purposes such as
+                the analysis of the u-bahn network. By facilitating information dissemination of public
+                transportation we invite users and actors of the field to use them more often, more efficiently
+                and improve them. This map is also a visual exploration of what can be done with open
+                access APIs and simple SVG animation.
+            </h4>
+            <h4>
+                Live Underground Vienna was originally developped in the frame of a school project. We are now improving details and developping further functionnalities to achieve a fully usable web application.
+            </h4>
+
+            <h4 class="link">
+                ↳ <a href="https://lukqca.github.io" target="_blank">demo (coming soon...)</a> &emsp; ↳ <a href="https://github.com/lukqca/lukqca.github.io" target="_blank">access the code</a>
+            </h4>
+
+            <h4 class="collaborator">
                 Authors: Ander Palacios Fraile & Luka Laval <br>
                 Supervisors: Olesia Ignateva & Florian Ledermann
             </h4>
