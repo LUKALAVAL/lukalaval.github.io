@@ -11,66 +11,63 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
 </head>
-<body class="EN">
-
-    <div id="toHomepage" onclick="location.href='./index.html'"></div>
-    
-    <div id="scrollTop" onclick="location.href='#'"></div>
+<body class="EN" style="background-color: rgb(187, 122, 221);">
 
     <div class="main">
         
-        <header>
-            <div class="left">
-                <b><a href="./index.html">LUKA LAVAL</a></b>
-            </div>
-            <div class="right">
-                <a class="EN" href="index.html">EN</a>
-                <!-- <a class="FR" href="">FR</a>
-                <a class="DE" href="">DE</a> -->
-                <s title="coming soon...">FR DE</s>
+        <header class="section">
+            <div class="content">
+                <div class="left">
+                    <b><a href="./index.html">LUKA LAVAL</a></b>
+                </div>
+                <div class="right">
+                    <a class="EN" href="index.html">EN</a>
+                    <s title="coming soon...">FR DE</s>
+                </div>
             </div>
         </header>
     
         <div class="section">
-            <h1>
-                <b>live underground vienna</b>
-            </h1>
-            <h4 class="subtitle">
-                Visualizing the viennese U-Bahn network
-            </h4>
-            <h4>
-                Austria's <a href="https://www.data.gv.at/en/">OGD (Open Government Data)</a>  policy makes a variety of datasets accessible. On this project, we focus on Vienna public transportation. <a href="https://www.wienerlinien.at/web/wl-en">Wiener Linien</a> publishes live updates of their network using an open access <a href="https://data.europa.eu/data/datasets/522d3045-0b37-48d0-b868-57c99726b1c4?locale=en">API</a>. We created a live metro map of Vienna as an interface of this API to apprehend public transportation schedules and grasp a live overview of the network. We used adapted design strategies and animations to effectively communicate the raw information we get from the API.
-            </h4>
-            <!-- <img src="./resources/image/live_underground_vienna/0.png" alt="" style="float: right"> -->
-            <h4>
-                The project was developed using HTML, CSS and JS only. We explored the basics of SVG to animate all individual trains. The animation is triggered using the API connection to the city server (one request every 30 seconds). A simple algorithm interpolates the time of departure of each train based on the API response.
-            </h4>
-            <!-- <img src="./resources/image/live_underground_vienna/1.png" alt="" style="float: right"> -->
-            <h4>
-                This project is meant to facilitate the understanding of the public transportation network in Vienna. We want to communicate information on a larger scale of understanding with a global overview of the city's metro system. This map can also serve other purposes such as the analysis of the u-bahn network. By facilitating information dissemination of public transportation we invite users and actors of the field to use them more often, more efficiently and as a tool for improvement. This map is also a visual exploration of what can be done with open access APIs and simple SVG animation.
-            </h4>
-            <h4>
-                Live Underground Vienna was originally developed in the frame of a university project at the <a href="https://www.tuwien.at/en/">Technical University of Vienna</a>. We are now improving details and developing further functionalities to achieve a fully usable web application.
-            </h4>
-
-            <h4 class="link">
-                ↳ <a href="https://lukqca.github.io" target="_blank">demo (coming soon...)</a> &emsp; ↳ <a href="https://github.com/lukqca/lukqca.github.io" target="_blank">access the code</a>
-            </h4>
-
-            <h4 class="collaborator">
-                Authors: Ander Palacios Fraile & Luka Laval <br>
-                Supervisors: Olesia Ignateva & Florian Ledermann
-            </h4>
+            <div class="content">
+                <h1>
+                    <b>live underground vienna</b>
+                </h1>
+                <h4 class="subtitle">
+                    Visualizing the viennese U-Bahn network
+                </h4>
+                <h4>
+                    Austria's <a href="https://www.data.gv.at/en/">OGD (Open Government Data)</a>  policy makes a variety of datasets accessible. On this project, we focus on Vienna public transportation. <a href="https://www.wienerlinien.at/web/wl-en">Wiener Linien</a> publishes live updates of their network using an open access <a href="https://data.europa.eu/data/datasets/522d3045-0b37-48d0-b868-57c99726b1c4?locale=en">API</a>. We created a live metro map of Vienna as an interface of this API to apprehend public transportation schedules and grasp a live overview of the network. We used adapted design strategies and animations to effectively communicate the raw information we get from the API.
+                </h4>
+                <h4>
+                    The project was developed using HTML, CSS and JS only. We explored the basics of SVG to animate all individual trains. The animation is triggered using the API connection to the city server (one request every 30 seconds). A simple algorithm interpolates the time of departure of each train based on the API response.
+                </h4>
+                <div class="image">
+                    <h5> allocation of classes to a train on line U3 [screenshot]</h5>
+                    <img src="./resources/image/live_underground_vienna/1.png" alt="">
+                </div>
+                <h4>
+                    This project is meant to facilitate the understanding of the public transportation network in Vienna. We want to communicate information on a larger scale of understanding with a global overview of the city's metro system. This map can also serve other purposes such as the analysis of the u-bahn network. By facilitating information dissemination of public transportation we invite users and actors of the field to use them more often, more efficiently and as a tool for improvement. This map is also a visual exploration of what can be done with open access APIs and simple SVG animation.
+                </h4>
+                <h4>
+                    Live Underground Vienna was originally developed in the frame of a university project at the <a href="https://www.tuwien.at/en/">Technical University of Vienna</a>. We are now improving details and developing further functionalities to achieve a fully usable web application.
+                </h4>
+    
+                <h4 class="link">
+                    ↳ <a href="https://lukqca.github.io" target="_blank">demo (coming soon...)</a>
+                    &emsp;<br class="tempo">
+                    ↳ <a href="https://github.com/lukqca/lukqca.github.io" target="_blank">access the code</a>
+                </h4>
+    
+                <h5 class="collaborator">
+                    Authors: Ander Palacios Fraile & Luka Laval <br>
+                    Supervisors: Olesia Ignateva & Florian Ledermann
+                </h5>
+            </div>
         </div>
-
-
-        <div class="space"></div>
 
     </div>
 
 
 </body>
-
-<script src="./script.js"></script>
 
 </html>
