@@ -31,7 +31,7 @@ body {
 
 .content {
     margin: auto;
-    max-width: 1600px;
+    max-width: 1300px;
 }
 
 .image {
@@ -168,8 +168,8 @@ body.DE a.DE {
 /* ABOUT TEXT */
 
 header {font-size: 28px;}
-h1 {font-size: 80px;}
-h2 {font-size: 64px;}
+h1 {font-size: 64px;}
+h2 {font-size: 56px;}
 h3 {font-size: 48px;}
 h4 {font-size: 32px;}
 h5 {font-size: 24px;}
